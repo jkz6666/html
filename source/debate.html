@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/debate.css" style="text/css"/>
+		<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+		<!-- 用js实现轮播图-->
+		<script type="text/javascript">
+		    var index=0;
+		    //改变图片
+		    function ChangeImg() {
+		        index++;
+		        var a=document.getElementsByClassName("img-slide");
+		        if(index>=a.length) index=0;
+		        for(var i=0;i<a.length;i++){
+		            a[i].style.display='none';
+		        }
+		        a[index].style.display='block';
+		    }
+		    //设置定时器，每隔1.5秒切换一张图片
+		    setInterval(ChangeImg,1500);
+		</script>
+		<title>辩论神话</title>
+	</head>
+	<body>
+		<div class="nav">
+			<div class="top">
+				<ul>
+					<li><a href="index.html">主页</a></li>
+					<li><a href="me.html">一个憨憨</a></li>
+					<li><a href="mybro.html">可爱的弟弟</a></li>
+					<li><a href="we.html">我和她</a></li>
+				</ul>
+			</div>
+			<div class="middle">
+				<h1>We &nbsp&nbsp;&nbsp;Debate &nbsp;&nbsp;&nbsp;</h1>
+			</div>
+			<div class="bottom">
+				<ul>
+					<!--锚链接，到达页面的指定位置-->
+					<li><a href="debate.html#start">开幕</a></li>
+					<li><a href="debate.html#climate">高潮</a></li>
+					<li><a href="debate.html#theend">落幕</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="container_start">
+			<img src="images/debate1.jpg" class="s1"/>
+				<ul>
+				<li><span><a name="start">开幕</a></span></li>
+				<li><strong>平时傻楞傻楞</strong></li>
+				<li><strong>辩论的时候脑回路清奇</strong></li>
+				<li><strong>喜欢带节奏</strong></li>
+				<li><strong>现实确是遭受了毒打</strong></li>
+				<li><strong>对方辩友</strong></li>
+				<li><strong>请多指教</strong></li>
+				</ul>
+			<img src="images/debate3.jpg" class="s2"/>
+		</div>
+		<div class="container_climate">
+			<div class="slide">
+				<img src="images/debate5.jpg" class="img-slide img1"/>
+				<img src="images/debate4.jpg" class="img-slide img2"/>
+				<img src="images/d2.jpg"  class="img-slide img4"/>
+				<img src="images/debate.jpg" class="img-slide img3"/>
+			</div>
+			
+			<ul>
+				<li><span><a name="climate">高潮</a></span></li>
+				<li><strong>有幸成为带队人</strong></li>
+				<li><strong>我们的口号是：？</strong></li>
+				<li><strong>"师兄师姐很忙没空管”</strong></li>
+				<li><strong>好吧，那冲冲冲</strong></li>
+				<li><strong>一路过五关斩六将</strong></li>
+				<li><strong>虽没拿冠军</strong></li>
+				<li><strong>却无心断了别人的三连冠</strong></li>
+				<li><strong>再现工程辩论高光时刻</strong></li>
+			</ul>
+		</div>
+		
+		<div class="container_theend">
+			<span><a name="theend">落幕</a></span>
+			<ul>
+				<!--不太会写文稿-->
+				<li><strong>我们</strong></li>
+				<li><strong>聚于热爱</strong></li>
+				<li><strong>善于协作</strong></li>
+				<li><strong>勇于拼搏</strong></li>
+				<li><strong>终将成为王者之师</strong></li>
+				<li><strong>我的任务完成了</strong></li>
+				<li><strong>再见是为了更好地重逢</strong></li>
+			</ul>
+			<img src="images/d3.jpg" />
+		</div>
+		<footer>
+			<ul>
+				<li><a href="index.html">个人主页</a></li>
+				<li><a href="me.html">一个憨憨</a></li>
+				<li><a href="debate.html">辩论神话</a></li>
+				<li><a href="we.html">可爱的弟弟</a></li>
+				<li><a href="we.html">我和她</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>

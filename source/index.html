@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+		<link rel="stylesheet" href="css/index.css" style="text/css" />
+		<!-- 用js实现轮播图-->
+		<script type="text/javascript">
+			var index = 0;
+			//改变图片
+			function ChangeImg() {
+				index++;
+				var a = document.getElementsByClassName("img-slide");
+				if (index >= a.length) index = 0;
+				for (var i = 0; i < a.length; i++) {
+					a[i].style.display = 'none';
+				}
+				a[index].style.display = 'block';
+			}
+			//设置定时器，每隔2.5秒切换一张图片
+			setInterval(ChangeImg, 2500);
+		</script>
+		<title>我的首页</title>
+	</head>
+	<body>
+		<div id="header">
+			<a href="index.html"><img src="./images/logo.png" / class="logo"></a>
+			<span class="wel">kunkun个人主页</span>
+			<span class="come">在线介绍自己</span>
+			<a href="info.html"><span class="friend">与我成为朋友吧</span></a>
+		</div>
+		<div id="nav">
+			<!--用无序列表排列4个分页的超链接-->
+			<ul>
+				<li><a href="me.html">一个憨憨</a></li>
+				<li><a href="debate.html">辩论神话</a></li>
+				<li><a href="mybro.html">可爱的弟弟</a></li>
+				<li><a href="we.html">我和她</a></li>
+			</ul>
+		</div>
+		<div id="container_1">
+			<!--第一个容器分为两个部分，一个是轮播图，一块是简介-->
+			<div class="self">
+				<img class="img-slide img1" src="images/s5.jpeg" />
+				<img class="img-slide img2" src="images/eat5.jpeg" />
+				<img class="img-slide img3" src="images/1.jpeg" />
+			</div>
+			<!--用表格的形式展示文字（就当完成了表格吧，做个简历感觉有点格格不入，虽然这个做的也不好看...）-->
+			<table class="self_introduction">
+				<tr align="center">
+					<td>我是季坤展</td>
+				</tr>
+				<tr>
+					<td>一个憨憨</td>
+				</tr>
+				<tr>
+					<td>吃吃喝喝</td>
+				</tr>
+				<tr>
+					<td>喜欢玩</td>
+				</tr>
+				<tr>
+					<td>辩论</td>
+				</tr>
+				<tr>
+					<td>最喜欢她</td>
+				</tr>
+
+			</table>
+		</div>
+		<div id="container_2">
+			<h1>-------这就是憨憨本人------- </h1>
+			<img src="images/s1.gif" id="gif1" />
+			<img src="images/s2.gif" id="gif2" />
+			<img src="images/s3.gif" id="gif3" />
+			<img src="images/s4.gif" id="gif4" />
+		</div>
+		<div id="footer">
+			<!--为了完成表单的任务，emm不太会设计页面-->
+			<ul>
+				<li><a href="index.html">个人主页</a></li>
+				<li><a href="me.html">一个憨憨</a></li>
+				<li><a href="debate.html">辩论神话</a></li>
+				<li><a href="we.html">可爱的弟弟</a></li>
+				<li><a href="we.html">我和她</a></li>
+			</ul>
+		</div>
+	</body>
+</html>

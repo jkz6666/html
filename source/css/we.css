@@ -1,0 +1,140 @@
+{
+	/*为了防止各个浏览器兼容性问题*/
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.nav{
+	width: 100%;
+	height: 100px;
+}
+.nav .logo2{
+	display: inline-block;
+	width: 10%; 
+	height: 98px; 
+	margin-left: 50px;
+	max-width: 100%; 
+	max-height: 100%;
+	margin-top: 10px;
+}
+.nav ul{
+	float: right;
+	width: 80%;
+	height: 90px;
+	background-color: lightblue;
+}
+
+.nav ul li{
+	float: right;
+	width: 150px;
+	height: 55px;
+	display: inline-block;
+	margin: 0px 80px 50px 0px;
+}
+.nav ul li a{
+	color: white;
+	width: 100px;
+	height: 55px;
+	text-align: center;
+	padding-right: 20px;
+	padding-top: 30px;
+	display: inline-block;
+	border-right: 2px pink solid;
+	font-size: 20px;
+}
+.nav ul li a:hover{
+	color: green;
+}
+.container_banner{
+	margin-top: 9px;
+	background: url(../images/banner.jpg) no-repeat;
+	width: auto;
+	height: 700px
+}
+.container_banner video{
+	margin-top: 75px;
+	margin-left: 50px;
+	border-radius: 25px;
+	max-width: 75%;
+	max-height: 75%;
+}
+.container_banner ul{
+	float: right;
+	margin-right: 170px;
+	margin-top: 80px;
+}
+p{
+	color: #03A9F4;
+	font-size: 25px;
+	font-weight: bold;
+}
+.container_middle{
+	width: 100%;
+	height: auto;
+}
+.img1{
+	display: inline-block;
+	max-width: 40%;
+	max-height: 40%;
+	margin-left: 100px;
+}
+.img2{
+	display: inline-block;
+	max-width: 45%;
+	max-height: 45%;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+.img3{
+	display: block;
+	max-width: 70%;
+	max-height: 60%;
+	margin-left: 250px;
+	margin-top: 50px;
+}
+.img4{
+	display: inline-block;
+	max-width: 35%;
+	max-height: 35%;
+	margin-left: 40px;
+}
+.img5{
+	display: inline-block;
+	max-width: 100%;
+	max-height: 100%;
+	float: left;
+	margin-left: 250px;
+	margin-top: 50px;
+}
+.container_bottom ul{
+	display: inline-block;
+	margin-left: 50px;
+	padding-left: 50px;
+}
+.footer{
+	width: 100%;
+	height: 80px;
+	background-color: pink;
+}
+.footer ul{
+	text-align: center;
+	margin-top: 15px;
+}
+.footer ul li{
+	font-size: 16px;
+	display: inline-block;
+	margin-top: 23px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.footer a{
+	color: white;
+}
+.footer a:hover{
+	color: black;
+}

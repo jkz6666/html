@@ -1,0 +1,183 @@
+.survey {
+	background-color: #fff;
+	font-size: 12px;
+	line-height: 120%;
+	color: #1d2d45;
+}
+
+.inner {
+	margin: 20px auto 40px auto;
+	width: 75%;
+}
+
+#head {
+	padding-top: 1px;
+}
+
+.description {
+	border-bottom: 2px solid #e33b3d;
+	color: #666;
+	overflow: hidden;
+	background: url(images/logo.png) no-repeat 0 -10px;
+	background-size: 165px auto;
+}
+
+.description h1 {
+	text-align: left;
+	margin-left: 190px;
+	font-size: 22px;
+	font-family: "Microsoft Yahei";
+	font-weight: normal;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+
+.welcome {
+	padding: 30px 65px 15px 35px;
+	text-align: left;
+}
+
+table.choice {
+	width: 100%;
+	margin: 0 auto 10px auto;
+	border: 1px solid #cce8ff;
+	padding: 1px;
+}
+
+td.question {
+	font-family: verdana;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #eef6ff;
+	text-align: left;
+	padding: 6px 10px;
+}
+
+.star {
+	color: red;
+	font-size: 9px;
+	font-family: verdana;
+	margin-right: 5px;
+}
+
+td.answer {
+	padding: 11px 24px 16px 37px;
+	text-align: left;
+}
+
+.answer-item {
+	list-style-type: none;
+	text-align: left;
+	margin: 0% 0% 0.5em 0.5em;
+}
+
+body,
+div,
+h1,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+table.suggestion {
+	width: 100%;
+	margin: 0 auto 10px auto;
+	border: 1px solid #cce8ff;
+	padding: 1px;
+}
+
+p.answerarea {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+textarea {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 1em;
+}
+
+.collection {
+	width: 100%;
+	margin: 0 0 2px 0;
+	border: 0 none;
+	border-collapse: collapse;
+	background-color: #fff;
+}
+
+.question-wrapper {
+	width: 100%;
+	margin: 0 auto 10px auto;
+	border: 1px solid #cce8ff;
+	padding: 1px;
+	background-color: #FFFFFF;
+}
+
+table {
+	border-spacing: 0;
+}
+
+.fill {
+	list-style-type: none;
+	text-align: left;
+	margin: 0% 0% 0.5em 0.5em;
+	margin-left: 0%;
+	padding-left: 0%;
+}
+
+lable {
+	vertical-align: middle;
+	padding: 0.3em 1em 0% 0%;
+	display: table-cell;
+}
+
+.blanks {
+	padding: 0.3em 0% 0% 1em;
+	display: table-cell;
+	vertical-align: baseline;
+	white-space: nowrap;
+}
+
+.submit {
+	width: 100%;
+	margin: 0;
+	padding: 1px;
+	text-align: center;
+	border: 1px solid #cde7ff;
+}
+
+.submit-button {
+	text-align: center;
+	width: 100%;
+	background-color: #EEF6FF;
+}
+
+strong {
+	font-style: normal;
+	font-weight: normal;
+}
+
+.sub {
+	padding: 0;
+	background-color: #d7ebf9;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border: 1px solid #aed0ea;
+}
+
+.button-text {
+	padding: .4em 1em;
+	display: block;
+	line-height: 1.4;
+	font-weight: bold;
+	color: #0070a3;
+}
+
+.B {
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+}
